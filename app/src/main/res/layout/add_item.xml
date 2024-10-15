@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tambahkan informasi"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:background="@color/teal_700"
+            android:padding="10dp"
+            android:elevation="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/userName"
+            android:hint="Nama"
+            android:padding="15dp"
+            android:background="@drawable/shape"
+            android:inputType="textPersonName"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/userNo"
+            android:hint="Mobile No."
+            android:inputType="phone"
+            android:padding="15dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
+
